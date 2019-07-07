@@ -5,11 +5,11 @@ from apiclient.errors import HttpError
 from oauth2client.tools import argparser
 
 
-DEVELOPER_KEY = "AIzaSyCYkQ9wc-R3AxzQppdhmep_7hAOVFOPVn0"
+DEVELOPER_KEY = ""
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
-apikey = "51275a78dda56754f5c9a6a30b42193d"
+apikey = ""
 
 def TMDbUpcomingMovie(apikey):
     headers = {"Accept": "application/json"}
